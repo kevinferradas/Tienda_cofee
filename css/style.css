@@ -182,10 +182,24 @@ section>h2 {
 footer {
     margin-top: 2rem;
     height: 200px;
+    display:flex;
 }
 
 .invertir {
     flex-direction: row-reverse;
 }
 
-footer>div
+footer div:first-child{
+
+    div{
+        padding:0 10px;
+        /* text-align: center; */
+    }
+
+}
+
+
+footer div:last-child {
+    display: flex;
+}
+
